@@ -2,14 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { Router } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FormsModule, ReactiveFormsModule} from '@angular/forms';
+
 
 import{AppRoutingModule} from './app-routing.module' 
 
-import { MatToolbarModule } from '@angular/material';
-import { MatMenuModule } from '@angular/material';
-import { MatIconModule } from '@angular/material';
-import { MatIconRegistry } from '@angular/material';
-import { MatCardModule } from '@angular/material';
+import { MatButtonModule, MatFormFieldModule, MatInputModule, MatMenuModule, MatToolbarModule,  MatCardModule, MatIconRegistry, MatIconModule  } from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { ListComponent } from './list/list.component';
@@ -24,16 +22,21 @@ import { MessageService } from './message.service';
     ListComponent,
     SingleComponent,
     ChirpFormComponent,
-    NavbarComponent
+    NavbarComponent,
+
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    ReactiveFormsModule,
+    FormsModule,
     MatToolbarModule,
     MatMenuModule,
     MatIconModule,
     MatCardModule,
-
+    MatFormFieldModule,
+    MatInputModule,
+    MatButtonModule
   ],
   providers: [MatIconRegistry,
               MessageService],

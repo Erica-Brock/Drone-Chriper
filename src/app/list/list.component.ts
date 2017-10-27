@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
-import { IMessage } from '../imessage'
-import{ mockMessages} from '../mock-messages'
-import{ MessageService} from '../message.service'
+import { IMessage } from '../imessage';
+import{ mockMessages} from '../mock-messages';
+import{ MessageService} from '../message.service';
 
 @Component({
   selector: 'message-list',

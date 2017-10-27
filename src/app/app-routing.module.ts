@@ -7,11 +7,11 @@ import { SingleComponent }  from './single/single.component';
 // import {UserpageComponent } from './userpage/userpage.component';
 
 const routes: Routes = [
-  // { path: '', redirectTo: '/', pathMatch: 'full' },
-  { path: 'chirp-form',  component: ChirpFormComponent },
-  { path: 'single/:id', component: SingleComponent },
-  { path: 'list',     component: ListComponent },
-//   { path: 'users', component: UserpageComponent },
+//   // { path: '', redirectTo: '/', pathMatch: 'full' },
+//   { path: 'chirp-form',  component: ChirpFormComponent },
+//   { path: 'single/:id', component: SingleComponent },
+//   { path: 'list',     component: ListComponent },
+// //   { path: 'users', component: UserpageComponent },
 ];
 
 @NgModule({
