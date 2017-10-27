@@ -1,0 +1,23 @@
+*{box-sizing: border-box}
+body{
+    background-color: #4a5647;
+}
+
+.drone-pic{
+    position: relative;
+    width:100%;
+    height: 40em;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-image: url("../assets/Borg-luminglass_inmotion.gif");
+    background-size: contain;
+    background-position: center;
+    
+}
+.black{
+    width:75%;
+    height: 40em;
+    background-color: black;
+    margin:0 auto;
+
+}

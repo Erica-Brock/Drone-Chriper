@@ -1,0 +1,11 @@
+<app-navbar>
+{{title}}
+</app-navbar>
+<mat-card class="message-list" 
+*ngFor="let message of mockMessages"
+(click)='onSelect(message)'>
+  <mat-card-title> {{message.name}} Says</mat-card-title>
+  <mat-card-subtitle>{{message.username}}</mat-card-subtitle>
+  <mat-card-content>{{message.message}}</mat-card-content>
+</mat-card>
+

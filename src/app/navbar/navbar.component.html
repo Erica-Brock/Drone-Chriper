@@ -1,0 +1,25 @@
+<mat-toolbar class="title-card">
+  <button mat-icon-button [matMenuTriggerFor]='appMenu'>
+    <mat-icon class="material-icon">dehaze</mat-icon>
+  </button>
+  <mat-menu #appMenu="matMenu" [overlapTrigger]="true">
+    <a routerlink="/userpage">
+      <button mat-menu-item>
+        <span>Active Drones</span>
+      </button>
+    </a>
+    <a router-link="/chirp-form">
+      <button mat-menu-item>
+        <span>New Chirp</span>
+      </button>
+    </a>
+    <a router-link="/list">
+      <button mat-menu-item>
+        <span> View All Chirps</span>
+      </button>
+  </a>
+</mat-menu>
+
+
+  <span>{{title}}</span>
+</mat-toolbar>

@@ -1,0 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+.message-list{
+    width: 75%;
+    margin:0 auto;
+}
